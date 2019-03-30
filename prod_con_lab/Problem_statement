@@ -1,0 +1,16 @@
+Implement Producer / Cosumer using Mutex an Condition Variable
+
+DO NOT modify the following files : main.c, buffer.c, buffer.h, prod_con.h
+Modify ONLY, prod_con.c
+
+compile: gcc buffer.c prod_con.c main.c
+run: ./a.out
+
+Read all the files carefully
+Implement all the functions in prod_con.c
+
+Use the following function to check if buffer is full/empty : buffer_full(), buffer_empty()
+
+Job is produced to / consumed from the buffer using the functions: produce_to_buffer(), consume_from_buffer()
+These functions the already called from withing produce() / consume()
+Add your code before / after these calls to manage mutex / condition variable
